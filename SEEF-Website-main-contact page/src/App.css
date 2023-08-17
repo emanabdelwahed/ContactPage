@@ -1,0 +1,132 @@
+* {
+  font-family:sans-serif;
+  box-sizing: border-box;
+}
+:root{
+  /* COLORS */
+   --PRIMARY : #BF9B30;
+  --GREEN : #34A853;
+  --GREY : #D0D0D0;
+  --BLACK : #1A1919;
+  /* font family */
+  --FONT_FAMILY :sans-serif;
+}
+.contact {
+  overflow-x: hidden;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+  padding: 260px 0 100px 0;
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%, #1A1919 100%),
+                 url(./assets/images/secondary_background.jpg) no-repeat  top center;
+ background-size: cover;
+
+}
+
+/* connect form  */
+
+.connectform {
+  display: flex;
+  background: #00000030;  
+  padding: 30px;
+  float: right;
+  border-radius: 5px;
+  
+}
+
+
+.connectform form input, .contact form textarea {
+  width: 100%;
+  height: 10px;
+  background: rgba(217, 217, 217, 0.17);
+  border-radius: 5px;
+  color: #fff;
+  margin: 15px 0px 5px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid transparent;
+  
+}
+.connectform form label{
+  display: block;
+  align-self: flex-start;
+  margin-top: .9rem;
+  font-size: 15px;
+
+}
+.connectform form input:hover, .form1 form input:focus, .form1 form:hover .input {
+  outline: none;
+  border-color: #BF9B30;
+}
+.connectform form textarea:hover, .form1 form textarea:focus, .form1 form:hover .input {
+  outline: none;
+  border-color: #BF9B30;
+}
+/* .connectform form input:focus, .contact form textarea:focus {
+  color: #121212;
+} */
+
+
+ .connectform form button {
+  width: 20px;
+  height: 30px;
+  color: #fff;
+  background-color: #BF9B30;
+  padding: 14px 48px;
+  margin-top: 25px;
+  border-radius: 5px;
+  position: relative;
+  float: right;
+  justify-content: center;
+  display: flex;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  line-height: 5px; 
+  border: none;
+}
+/* social-icons for connect */
+
+.connectpage .social-icons{
+  display: inline-block;
+}
+.connectpage .social-icons a {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  color:#BF9B30;
+  font-size: 25px;
+}
+.connectpage .social-icons a::before  {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+.connectpage .social-icons a:hover::before {
+  transform: scale(1);
+}
+
+/* the word of connect us */
+
+.connectpage .underlined {
+  border-bottom: 2px solid #BF9B30;
+}
+/* connectpage  */
+
+.connectpage{
+  transform: translatey(-120px);
+}
+.connectpage h4{
+  margin-top: 35px;
+}
+.connectpage h6{
+  margin-bottom: 100px;
+}
